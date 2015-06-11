@@ -1,3 +1,7 @@
+@font-face {
+    font-family: MullerLight;
+    src: url(fonts/Muller-Light.otf);
+}
 body {
     overflow: hidden;
     padding: 0;
@@ -47,7 +51,7 @@ body {
     background: none;
 }
 .circle-3:hover {
-    box-shadow: inset 0px 15px 15px #EBD9B0;
+    box-shadow: inset 0px 15px 15px #172F28;
 }
 .circle-4 {
     top: 513px;
@@ -110,16 +114,59 @@ body {
 
 
 /* */
+.bel {
+    position: absolute;
+    width: 395px;
+    height: 308px;
+    top:-80px;
+    right:0px;
+    background: url(images/bel.png) no-repeat;
+    z-index: 4;
+}
 .mainmenu {
     position: absolute;
     z-index: 5;
-    /*7974B2*/
-    background: #5656A1;
+    background: #7974b2;
+    background: -moz-linear-gradient(top,  #7974b2 50%, #5656a1 51%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#7974b2), color-stop(51%,#5656a1));
+    background: -webkit-linear-gradient(top,  #7974b2 50%,#5656a1 51%);
+    background: -o-linear-gradient(top,  #7974b2 50%,#5656a1 51%);
+    background: -ms-linear-gradient(top,  #7974b2 50%,#5656a1 51%);
+    background: linear-gradient(to bottom,  #7974b2 50%,#5656a1 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7974b2', endColorstr='#5656a1',GradientType=0 );
+
     right: 90px;
     bottom: 20px;
-    padding: 10px 20px;
+    padding: 8px 30px;
     color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: MullerLight;
+}
+.mainmenu:hover {
+    opacity: 0.9;
+}
+.button {
+    background: #ce7f75;
+    background: -moz-linear-gradient(top,  #ce7f75 49%, #c84d3e 50%, #c84d3e 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(49%,#ce7f75), color-stop(50%,#c84d3e), color-stop(50%,#c84d3e));
+    background: -webkit-linear-gradient(top,  #ce7f75 49%,#c84d3e 50%,#c84d3e 50%);
+    background: -o-linear-gradient(top,  #ce7f75 49%,#c84d3e 50%,#c84d3e 50%);
+    background: -ms-linear-gradient(top,  #ce7f75 49%,#c84d3e 50%,#c84d3e 50%);
+    background: linear-gradient(to bottom,  #ce7f75 49%,#c84d3e 50%,#c84d3e 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce7f75', endColorstr='#c84d3e',GradientType=0 );
 
+    position: absolute;
+    z-index: 5;
+    font-size: 22px;
+    color: #fff;
+    padding: 8px 20px;
+    width: 150px;
+    cursor: pointer;
+    font-family: MullerLight;
+}
+.button:hover {
+    opacity: 0.9;
 }
 .text {
     background: #FBF6B9;
@@ -131,4 +178,7 @@ body {
     height: 590px;
     left: 450px;
     top: 100px;
+    overflow-y: scroll;
+    font-family: Arial;
+    line-height: 20px;
 }

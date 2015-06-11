@@ -34,6 +34,12 @@
                             fill: ["rgba(0,0,0,0)",im+"Untitled-12.png",'0px','0px']
                         },
                         {
+                            id: '_55',
+                            type: 'image',
+                            rect: ['0px', '670px', '691px', '95px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"5.png",'0px','0px']
+                        },
+                        {
                             id: '_4',
                             type: 'image',
                             rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
@@ -60,7 +66,7 @@
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1280px', '800px'],
+                            rect: ['null', 'null', '1280px', '800px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
