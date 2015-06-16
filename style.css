@@ -56,14 +56,14 @@ body {
     top: 149px;
     left: 887px;
     width: 166px;
-    height: 166px;   
-    z-index: 11; 
+    height: 166px;
+    z-index: 11;
 }
 .circle-2 {
     top: 149px;
     left: 284px;
     width: 154px;
-    height: 152px; 
+    height: 152px;
 }
 .circle-3 {
     top: 585px;
@@ -226,7 +226,7 @@ body {
     position: absolute;
     width: 322px;
     height: 322px;
-    top: -100px;
+    top: -80px;
     right: 100px;
     background: url(images/2.png) no-repeat;
     background-size: 100%;

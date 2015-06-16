@@ -18,9 +18,9 @@ $(document).ready(function() {
     $('body').videoBG({
         position:"fixed",
         zIndex:9999,
-        mp4:'promo/promo.mp4',
-        ogv:'promo/promo.mp4',
-        webm:'promo/promo.mp4',
+        mp4:'promo/promonew.mov',
+        ogv:'promo/promonew.mov',
+        webm:'promo/promonew.mov',
         opacity:1,
         fullscreen:true,
         loop:false
