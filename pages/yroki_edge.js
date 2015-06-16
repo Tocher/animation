@@ -48,12 +48,18 @@
                             opacity: 0,
                             fill: ["rgba(0,0,0,0)",im+"3.png",'0px','0px'],
                             transform: [[],[],[],[],['9.06%','29.25%']]
+                        },
+                        {
+                            id: '_6',
+                            type: 'image',
+                            rect: ['0px', '264px', '1280px', '542px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"6.png",'0px','0px']
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1280px', '800px'],
+                            rect: ['null', 'null', '1280px', '800px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
@@ -64,13 +70,13 @@
                     autoPlay: true,
                     data: [
                         [
-                            "eid21",
-                            "top",
-                            1250,
+                            "eid19",
+                            "left",
+                            0,
                             1250,
                             "easeOutBounce",
-                            "${_2}",
-                            '-265px',
+                            "${_3}",
+                            '-208px',
                             '0px'
                         ],
                         [
@@ -94,13 +100,13 @@
                             '1'
                         ],
                         [
-                            "eid19",
-                            "left",
-                            0,
+                            "eid21",
+                            "top",
+                            1250,
                             1250,
                             "easeOutBounce",
-                            "${_3}",
-                            '-208px',
+                            "${_2}",
+                            '-265px',
                             '0px'
                         ]
                     ]

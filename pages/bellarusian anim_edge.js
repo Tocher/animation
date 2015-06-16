@@ -28,6 +28,12 @@
                 content: {
                     dom: [
                         {
+                            id: '_3',
+                            type: 'image',
+                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"3.png",'0px','0px']
+                        },
+                        {
                             id: '_4',
                             type: 'image',
                             rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
@@ -36,7 +42,7 @@
                         {
                             id: '_5',
                             type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
+                            rect: ['1px', '162px', '905px', '566px', 'auto', 'auto'],
                             opacity: 0,
                             fill: ["rgba(0,0,0,0)",im+"5.png",'0px','0px']
                         }
@@ -44,7 +50,7 @@
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1280px', '800px'],
+                            rect: ['null', 'null', '1280px', '800px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
@@ -62,7 +68,7 @@
                             "linear",
                             "${_5}",
                             '0.000000',
-                            '1'
+                            '0.78861788617886'
                         ],
                         [
                             "eid5",
@@ -71,7 +77,7 @@
                             40,
                             "linear",
                             "${_5}",
-                            '1',
+                            '0.78861788617886',
                             '0'
                         ],
                         [
@@ -82,7 +88,7 @@
                             "linear",
                             "${_5}",
                             '0.000000',
-                            '1'
+                            '0.8780487804878'
                         ],
                         [
                             "eid10",
@@ -91,8 +97,48 @@
                             60,
                             "linear",
                             "${_5}",
-                            '1',
+                            '0.8780487804878',
                             '0'
+                        ],
+                        [
+                            "eid28",
+                            "top",
+                            345,
+                            0,
+                            "linear",
+                            "${_5}",
+                            '162px',
+                            '162px'
+                        ],
+                        [
+                            "eid25",
+                            "width",
+                            345,
+                            0,
+                            "linear",
+                            "${_5}",
+                            '905px',
+                            '905px'
+                        ],
+                        [
+                            "eid23",
+                            "height",
+                            345,
+                            0,
+                            "linear",
+                            "${_5}",
+                            '566px',
+                            '566px'
+                        ],
+                        [
+                            "eid29",
+                            "left",
+                            345,
+                            0,
+                            "linear",
+                            "${_5}",
+                            '1px',
+                            '1px'
                         ]
                     ]
                 }

@@ -4,6 +4,7 @@ $(document).ready(function() {
     promo = function() {
         clearTimeout(promoId);
         $('body').unbind('click');
+        $('body').css('cursor', 'auto');
         //to stage 2
         $('.videoBG').fadeOut('400', function() {
             $(this).remove();
@@ -31,10 +32,15 @@ $(document).ready(function() {
 stage2 = function() {
     // Menu
     var menu = $('.menu'),
-        epage = $('.epage');
+        epage = $('.epage'),
+        pre = $('.premii'),
+        pro = $('.programs');
+
     $('.mainmenu').click(function() {
         menu.show();
         epage.hide();
+        pre.hide();
+        pro.hide();
     });
 
     openpage = function(id) {
@@ -52,6 +58,22 @@ stage2 = function() {
             width: "1280px",
             height: "800px"
         }, {dom: [ ]}, {dom: [ ]});
+        $(".text").mCustomScrollbar(); // СКОЛЛ
+        var h = $(".page1history"),
+            a = $(".page1artists");
+
+        $(".toHistory").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.show();
+            a.hide();
+        });
+        $(".toArtists").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.show();
+        });
     });
 
     $('.page2').click(function() {
@@ -64,6 +86,32 @@ stage2 = function() {
             width: "1280px",
             height: "800px"
         }, {dom: [ ]}, {dom: [ ]});
+        $(".text").mCustomScrollbar(); // СКОЛЛ
+        var h = $(".page2history"),
+            a = $(".page2artists"),
+            s = $(".page2studios");
+
+        $(".toHistory").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.show();
+            a.hide();
+            s.hide();
+        });
+        $(".toArtists").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.show();
+            s.hide();
+        });
+        $(".toStudios").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.hide();
+            s.show();
+        });
     });
 
     $('.page3').click(function() {
@@ -76,6 +124,44 @@ stage2 = function() {
             width: "1280px",
             height: "800px"
         }, {dom: [ ]}, {dom: [ ]});
+        $(".text").mCustomScrollbar(); // СКОЛЛ
+        var h = $(".page3history"),
+            a = $(".page3artists"),
+            s = $(".page3studios"),
+            u = $(".page3union");
+
+        $(".toHistory").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.show();
+            a.hide();
+            s.hide();
+            u.hide();
+        });
+        $(".toArtists").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.show();
+            s.hide();
+            u.hide();
+        });
+        $(".toStudios").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.hide();
+            s.show();
+            u.hide();
+        });
+        $(".toUnion").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.hide();
+            s.hide();
+            u.show();
+        });
     });
 
     $('.page4').click(function() {
@@ -124,6 +210,22 @@ stage2 = function() {
             width: "1280px",
             height: "800px"
         }, {dom: [ ]}, {dom: [ ]});
+        $(".text").mCustomScrollbar(); // СКОЛЛ
+        var h = $(".page7history"),
+            a = $(".page7artists");
+
+        $(".toHistory").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.show();
+            a.hide();
+        });
+        $(".toArtists").click(function() {
+            $(this).parent().find('.button').removeClass('active');
+            $(this).addClass('active');
+            h.hide();
+            a.show();
+        });
     });
 
     $('.page8').click(function() {
@@ -148,6 +250,17 @@ stage2 = function() {
             width: "1280px",
             height: "800px"
         }, {dom: [ ]}, {dom: [ ]});
+    });
+
+    $('.menu6').click(function() {
+        menu.hide();
+        pre.show();
+        $(".pseudotext").mCustomScrollbar(); // СКОЛЛ
+    });
+    $('.menu7').click(function() {
+        menu.hide();
+        pro.show();
+        $(".pseudotext").mCustomScrollbar(); // СКОЛЛ
     });
 };
 

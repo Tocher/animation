@@ -34,33 +34,31 @@
                             fill: ["rgba(0,0,0,0)",im+"Untitled-12.png",'0px','0px']
                         },
                         {
-                            id: '_55',
+                            id: '_42',
                             type: 'image',
-                            rect: ['0px', '670px', '691px', '95px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"5.png",'0px','0px']
+                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"42.png",'0px','0px']
                         },
                         {
                             id: '_4',
                             type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
-                            autoOrient: false,
+                            rect: ['-61px', '70px', '1167px', '729px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"4.png",'0px','0px'],
-                            transform: [[],['-11'],[],[],['24.375%','68.75%']]
+                            transform: [[],['13'],[],[],['24.53%','68.9%']]
                         },
                         {
                             id: '_3',
                             type: 'image',
-                            rect: ['0px', '-122px', '1280px', '800px', 'auto', 'auto'],
+                            rect: ['-48px', '13px', '1167px', '729px', 'auto', 'auto'],
                             opacity: 0,
                             fill: ["rgba(0,0,0,0)",im+"3.png",'0px','0px']
                         },
                         {
                             id: '_2',
                             type: 'image',
-                            rect: ['0px', '-169px', '1280px', '800px', 'auto', 'auto'],
+                            rect: ['-48px', '-45px', '1167px', '729px', 'auto', 'auto'],
                             opacity: 0,
-                            fill: ["rgba(0,0,0,0)",im+"2.png",'0px','0px'],
-                            transform: [[],[],[],[],['11.4843%','81.5%']]
+                            fill: ["rgba(0,0,0,0)",im+"2.png",'0px','0px']
                         }
                     ],
                     style: {
@@ -73,87 +71,107 @@
                     }
                 },
                 timeline: {
-                    duration: 3000,
+                    duration: 2180,
                     autoPlay: true,
                     data: [
                         [
-                            "eid41",
+                            "eid86",
                             "rotateZ",
-                            1545,
-                            205,
-                            "easeOutBounce",
+                            1000,
+                            50,
+                            "easeOutQuad",
                             "${_4}",
-                            '-11deg',
-                            '12deg'
+                            '13deg',
+                            '-12deg'
                         ],
                         [
-                            "eid40",
+                            "eid87",
                             "rotateZ",
-                            1750,
-                            195,
-                            "easeOutBounce",
+                            1050,
+                            45,
+                            "easeOutQuad",
                             "${_4}",
-                            '12deg',
-                            '-11deg'
+                            '-12deg',
+                            '10deg'
                         ],
                         [
-                            "eid43",
+                            "eid88",
                             "rotateZ",
-                            1945,
-                            110,
-                            "easeOutCirc",
+                            1095,
+                            50,
+                            "easeOutQuad",
                             "${_4}",
-                            '-11deg',
-                            '13deg'
+                            '10deg',
+                            '-6deg'
                         ],
                         [
-                            "eid16",
+                            "eid103",
+                            "rotateZ",
+                            1145,
+                            105,
+                            "easeOutQuad",
+                            "${_4}",
+                            '-6deg',
+                            '9deg'
+                        ],
+                        [
+                            "eid104",
+                            "rotateZ",
+                            1250,
+                            340,
+                            "easeOutQuad",
+                            "${_4}",
+                            '9deg',
+                            '-9deg'
+                        ],
+                        [
+                            "eid83",
                             "opacity",
                             0,
-                            90,
-                            "linear",
+                            40,
+                            "easeOutBounce",
                             "${_2}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid30",
+                            "eid79",
                             "top",
-                            1000,
-                            1000,
+                            797,
+                            703,
                             "easeOutBounce",
                             "${_3}",
-                            '-122px',
-                            '0px'
+                            '13px',
+                            '71px'
                         ],
                         [
-                            "eid35",
+                            "eid100",
                             "location",
-                            2000,
-                            1000,
-                            "easeOutCirc",
+                            1145,
+                            1035,
+                            "easeOutSine",
                             "${_4}",
-                            [[312, 550, 0, 0, 0, 0,0],[305.18, 628.21, -66.75, 109.96, -74.69, 123.03,81.43],[207.67, 737.59, -65.66, 214.15, -31.31, 102.1,228.91],[224, 837, 0, 0, 0, 0,335.29]]
+                            [[225.28, 572.11, 0, 0, 0, 0,0],[169.54, 621.63, -32.77, 92.58, -57.99, 163.81,79.93],[203.28, 723.23, -30.38, 165.85, -19.77, 107.95,189.82],[85.27, 829.42, 0, 0, 0, 0,352.82]]
                         ],
                         [
-                            "eid32",
+                            "eid81",
                             "opacity",
-                            945,
-                            55,
+                            445,
+                            352,
                             "easeOutBounce",
                             "${_3}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid17",
+                            "eid77",
                             "top",
                             0,
                             1000,
                             "easeOutBounce",
                             "${_2}",
-                            '-169px',
-                            '0px'
+                            '-45px',
+                            '71px'
                         ]
                     ]
                 }

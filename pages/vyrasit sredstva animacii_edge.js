@@ -28,37 +28,31 @@
                 content: {
                     dom: [
                         {
-                            id: '_1',
+                            id: '_5',
                             type: 'image',
                             rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"1.png",'0px','0px']
-                        },
-                        {
-                            id: '_4',
-                            type: 'image',
-                            rect: ['13px', '658px', '429px', '95px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"4.png",'0px','0px']
+                            fill: ["rgba(0,0,0,0)",im+"5.png",'0px','0px']
                         },
                         {
                             id: '_3',
                             type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
+                            rect: ['-50px', '74px', '1280px', '800px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"3.png",'0px','0px'],
-                            transform: [[],[],[],[],['16.7187%','59.125%']]
+                            transform: [[],['-17'],[],['0.71037','0.71037'],['16.7187%','59.125%']]
                         },
                         {
                             id: 'Untitled-1-Recovered',
                             type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
+                            rect: ['-50px', '74px', '1280px', '800px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"Untitled-1-Recovered.png",'0px','0px'],
-                            transform: [[],[],[],[],['16.5625%','59.25%']]
+                            transform: [[],['-13'],[],['0.71037','0.71037'],['16.5625%','59.25%']]
                         },
                         {
                             id: '_2',
                             type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
+                            rect: ['-50px', '74px', '1280px', '800px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"2.png",'0px','0px'],
-                            transform: [[],[],[],[],['16.5625%','59.25%']]
+                            transform: [[],['-18'],[],['0.71037','0.71037'],['16.5625%','59.25%']]
                         }
                     ],
                     style: {
@@ -71,76 +65,126 @@
                     }
                 },
                 timeline: {
-                    duration: 4500,
+                    duration: 2125,
                     autoPlay: true,
                     data: [
                         [
-                            "eid6",
-                            "location",
-                            1500,
-                            1500,
+                            "eid36",
+                            "rotateZ",
+                            1000,
+                            145,
                             "easeInOutBack",
                             "${Untitled-1-Recovered}",
-                            [[212, 474, 0, 0, 0, 0,0],[166, 694.64, 0, 248.2, 0, 328.42,226.55],[212, 866, 0, 0, 0, 0,405.34]]
-                        ],
-                        [
-                            "eid2",
-                            "location",
-                            0,
-                            1500,
-                            "easeInOutBack",
-                            "${_2}",
-                            [[212, 474, 0, 0, 0, 0,0],[228.72, 642.38, -43.03, 240.96, -59.31, 332.15,172.15],[142, 866, 0, 0, 0, 0,412.56]]
-                        ],
-                        [
-                            "eid12",
-                            "rotateZ",
-                            2956,
-                            44,
-                            "easeInOutBack",
-                            "${_3}",
-                            '0deg',
+                            '-22deg',
                             '19deg'
                         ],
                         [
-                            "eid9",
+                            "eid37",
                             "rotateZ",
-                            3000,
-                            500,
-                            "swing",
-                            "${_3}",
+                            1145,
+                            105,
+                            "easeInOutBack",
+                            "${Untitled-1-Recovered}",
                             '19deg',
-                            '-24deg'
+                            '-17deg'
                         ],
                         [
-                            "eid10",
+                            "eid38",
                             "rotateZ",
-                            3500,
-                            500,
-                            "swing",
-                            "${_3}",
-                            '-24deg',
-                            '14deg'
+                            1250,
+                            130,
+                            "easeInOutBack",
+                            "${Untitled-1-Recovered}",
+                            '-17deg',
+                            '17deg'
                         ],
                         [
-                            "eid14",
+                            "eid43",
                             "rotateZ",
-                            4000,
-                            250,
-                            "swing",
-                            "${_3}",
-                            '14deg',
-                            '-9deg'
+                            1380,
+                            310,
+                            "easeInOutBack",
+                            "${Untitled-1-Recovered}",
+                            '17deg',
+                            '-13deg'
                         ],
                         [
-                            "eid16",
+                            "eid29",
                             "rotateZ",
-                            4250,
-                            250,
-                            "swing",
+                            0,
+                            200,
+                            "easeInOutBack",
+                            "${_2}",
+                            '18deg',
+                            '-18deg'
+                        ],
+                        [
+                            "eid30",
+                            "rotateZ",
+                            200,
+                            200,
+                            "easeInOutBack",
+                            "${_2}",
+                            '-18deg',
+                            '15deg'
+                        ],
+                        [
+                            "eid33",
+                            "rotateZ",
+                            400,
+                            200,
+                            "easeInOutBack",
+                            "${_2}",
+                            '15deg',
+                            '-10deg'
+                        ],
+                        [
+                            "eid45",
+                            "rotateZ",
+                            1750,
+                            125,
+                            "easeInOutQuad",
                             "${_3}",
-                            '-9deg',
-                            '0deg'
+                            '-17deg',
+                            '16deg'
+                        ],
+                        [
+                            "eid46",
+                            "rotateZ",
+                            1875,
+                            125,
+                            "easeInOutQuad",
+                            "${_3}",
+                            '16deg',
+                            '-11deg'
+                        ],
+                        [
+                            "eid47",
+                            "rotateZ",
+                            2000,
+                            125,
+                            "easeInOutQuad",
+                            "${_3}",
+                            '-11deg',
+                            '10deg'
+                        ],
+                        [
+                            "eid32",
+                            "location",
+                            400,
+                            1100,
+                            "easeInOutBack",
+                            "${_2}",
+                            [[162, 547.83, 0, 0, 0, 0,0],[185.12, 638.21, -14.27, 128.52, -19.01, 171.16,95.56],[125.38, 760.15, -47.98, 181.29, -35.95, 135.85,232.29],[124.3, 887.34, 0, 0, 0, 0,360.48]]
+                        ],
+                        [
+                            "eid41",
+                            "location",
+                            1380,
+                            745,
+                            "easeInOutBack",
+                            "${Untitled-1-Recovered}",
+                            [[162, 547.83, 0, 0, 0, 0,0],[131.35, 622.81, 3.59, 145.28, 3.66, 148.09,83.49],[198.85, 775.87, 28.62, 158.5, 27.86, 154.32,252.06],[170.2, 879.15, 0, 0, 0, 0,361.87]]
                         ]
                     ]
                 }
