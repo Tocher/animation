@@ -28,12 +28,6 @@
                 content: {
                     dom: [
                         {
-                            id: 'Untitled-12',
-                            type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"Untitled-12.png",'0px','0px']
-                        },
-                        {
                             id: '_42',
                             type: 'image',
                             rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],

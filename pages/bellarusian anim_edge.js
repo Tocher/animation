@@ -34,12 +34,6 @@
                             fill: ["rgba(0,0,0,0)",im+"3.png",'0px','0px']
                         },
                         {
-                            id: '_4',
-                            type: 'image',
-                            rect: ['0px', '0px', '1280px', '800px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"4.png",'0px','0px']
-                        },
-                        {
                             id: '_5',
                             type: 'image',
                             rect: ['1px', '162px', '905px', '566px', 'auto', 'auto'],
