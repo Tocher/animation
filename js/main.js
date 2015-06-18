@@ -57,7 +57,27 @@ stage2 = function() {
 
     openpage = function(id) {
         menu.animate({ top: '-100%' }, 1000, function() { $(this).hide() });
-        $('.' + id).show().animate({ top: 0 }, 1000);
+
+        if (id === 'EDGE-40135263') {
+            $('.EDGE-28427582').css('top', '100%').show().animate({ top: 0 }, 1000, function() {
+
+                AdobeEdge.loadComposition('pages/village3', 'EDGE-28427582', {
+                    scaleToFit: "none",
+                    centerStage: "none",
+                    minW: "0",
+                    maxW: "undefined",
+                    width: "1280px",
+                    height: "800px"
+                }, {dom: [ ]}, {dom: [ ]});
+
+                setTimeout(function() {
+                    $('.EDGE-40135263').show().animate({ top: 0 }, 1000);
+                    $('.EDGE-28427582').animate({ top: '-100%' }, 1000, function() { $(this).hide() });                    
+                }, 14000);
+            });            
+        }
+        else
+            $('.' + id).show().animate({ top: 0 }, 1000);
     };
 
     $('.page1').click(function() {
@@ -229,15 +249,6 @@ stage2 = function() {
     }, {dom: [ ]}, {dom: [ ]});
 
     AdobeEdge.loadComposition('pages/sea', 'EDGE-38852856', {
-        scaleToFit: "none",
-        centerStage: "none",
-        minW: "0",
-        maxW: "undefined",
-        width: "1280px",
-        height: "800px"
-    }, {dom: [ ]}, {dom: [ ]});
-
-    AdobeEdge.loadComposition('pages/village2', 'EDGE-10542059', {
         scaleToFit: "none",
         centerStage: "none",
         minW: "0",
