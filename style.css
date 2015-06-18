@@ -202,6 +202,8 @@ body {
 .epage {
     display: none;
     box-shadow: 0 0 15px #333;
+    top: 100%;
+    position: absolute !important;
 }
 .sred {
     position: absolute;
