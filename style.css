@@ -31,6 +31,7 @@ body {
     width: 1280px;
     box-shadow: 0 0 15px #333;
     display: none;
+    top: 100%;
 }
 .programs {
     background: url(images/programs.png) no-repeat;
@@ -40,6 +41,7 @@ body {
     width: 1280px;
     box-shadow: 0 0 15px #333;
     display: none;
+    top: 100%;
 }
 
 .circle {

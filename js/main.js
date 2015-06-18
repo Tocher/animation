@@ -45,9 +45,14 @@ stage2 = function() {
 
     $('.mainmenu').click(function() {
         menu.show().animate({ top: 0 }, 1000);
-        epage.animate({ top: '100%' }, 1000, function() { $(this).hide() });
-        pre.hide();
-        pro.hide();
+        epage.each(function(i, e) {
+            if ($(e).css('display') === 'block')
+                $(e).animate({ top: '100%' }, 1000, function() { $(this).hide() });
+        });
+        if (pre.css('display') === 'block')
+            pre.animate({ top: '100%' }, 1000, function() { $(this).hide() });
+        if (pro.css('display') === 'block')
+            pro.animate({ top: '100%' }, 1000, function() { $(this).hide() });
     });
 
     openpage = function(id) {
@@ -270,13 +275,13 @@ stage2 = function() {
 
 
     $('.menu6').click(function() {
-        menu.hide();
-        pre.show();
+        menu.animate({ top: '-100%' }, 1000, function() { $(this).hide() });
+        pre.show().animate({ top: 0 }, 1000);
         $(".pseudotext").mCustomScrollbar(); // СКОЛЛ
     });
     $('.menu7').click(function() {
-        menu.hide();
-        pro.show();
+        menu.animate({ top: '-100%' }, 1000, function() { $(this).hide() });
+        pro.show().animate({ top: 0 }, 1000);
         $(".pseudotext").mCustomScrollbar(); // СКОЛЛ
     });
 };
